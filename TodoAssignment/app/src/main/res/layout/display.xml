@@ -1,0 +1,26 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:background="@android:color/darker_gray"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+        <CheckBox
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:checked="true"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="15dp"
+            android:id="@+id/tview"
+            android:textColor="@color/black"
+            android:gravity="center|left"
+            android:textSize="30sp"
+            android:textStyle=""
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+</LinearLayout>
